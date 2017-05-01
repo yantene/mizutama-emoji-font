@@ -1,3 +1,15 @@
+fonts-twemoji-svginot (1.2-1) trusty; urgency=medium
+
+  * Rebuild with SVG transform (translate/scale) following SVGinOT spec.
+    Fixes Microsoft Edge, no visible change for Firefox/Gecko renderers.
+  * SVG: Add rainbow and pirate flag.
+  * SVG: Add twmoeji Emoji 4.0 draft graphics includes additions to
+    address gender equality, expanded professions, increased skin tone
+    support, family representations, and minor modifications to some
+    existing emojis.
+
+ -- Brad Erickson <eosrei@gmail.com>  Fri, 30 Sep 2016 17:03:37 -0700
+
 fonts-twemoji-svginot (1.1-1) trusty; urgency=medium
 
   * Upgrade to twemoji v2.1.0 adding 72 Unicode 9.0 emoji.

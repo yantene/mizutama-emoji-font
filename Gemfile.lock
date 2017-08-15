@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cairo (1.15.9)
+      native-package-installer (>= 1.0.3)
+      pkg-config (>= 1.2.2)
+    native-package-installer (1.0.4)
+    pkg-config (1.2.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cairo
+
+BUNDLED WITH
+   1.15.3

@@ -103,9 +103,7 @@ copy-extra: build/svg-bw
 # 3. Make the BMP into a Edge Detected PGM with mkbitmap
 # 4. Make the PGM into a black SVG trace with potrace
 build/svg-bw/%.svg: build/staging/%.svg | build/svg-bw
-	inkscape -w 72 -h 72 -z -e $(TMP)/$(*F).png $<
-	./halftone.rb $(TMP)/$(*F).png $@
-	rm $(TMP)/$(*F).png
+	./halftone.rb $< $@
 
 # Optimize/clean the color SVG files
 build/svg-color/%.svg: build/staging/%.svg | build/svg-color

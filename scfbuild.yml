@@ -1,5 +1,5 @@
-# SCFBuild configuration file for Twitter Color Emoji
-output_file: build/TwitterEmojiColor-SVGinOT.ttf
+# SCFBuild configuration file for Mizutama Emoji
+output_file: build/MizutamaEmoji.ttf
 verbose: False
 glyph_svg_dir: build/svg-bw
 color_svg_dir: build/svg-color
@@ -15,23 +15,24 @@ color_transform: translate(0 -6.75)
 width_space: 561
 table_name:
   copyright: >
+    Copyright 2016 yantene CC-BY-4.0
     Copyright 2016 Brad Erickson CC-BY-4.0
     Copyright 2016 Twitter, Inc. CC-BY-4.0
-  family: Twitter Color Emoji
+  family: Mizutama Emoji
   # Subfamily is also called Style or Weight. Often set to: Regular
   subfamily: Regular
-  unique_id: Twitter Color Emoji SVGinOT eosrei.net
-  full_name: Twitter Color Emoji SVGinOT
+  unique_id: Mizutama Emoji yantene.net
+  full_name: Mizutama Emoji
   #version:
   # No spaces in PostScript Names
-  postscript_name: TwitterColorEmojiSVGinOT
+  postscript_name: MizutamaEmoji
   #trademark:
-  manufacturer: eosrei.net
+  manufacturer: yantene.net
   designer: Twitter, Inc.
   description: >
     A SVGinOT color emoji font using the Twitter Emoji for Everyone set:
-    https://github.com/eosrei/twemoji-color-font
-  url_vendor: https://github.com/eosrei/twemoji-color-font
+    https://github.com/yantene/mizutama-emoji-font
+  url_vendor: https://github.com/yantene/mizutama-emoji-font
   url_designer: https://github.com/twitter/twemoji
   license: Creative Commons Attribution 4.0 International
   url_license: http://creativecommons.org/licenses/by/4.0/
